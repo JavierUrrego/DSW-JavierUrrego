@@ -10,11 +10,55 @@ body{
 }
 
 .menu{
-    padding: 20px;
+    padding: 10px;
     background-color: #F0B429;
 }
 
 .tabla{
     width: 80%;
     margin: 40px;
+    background-color: #F0B429;
+    text-align: justify;
+}
+.menu li{
+    display:inline-block;
+}
+li a, boton{
+    display:inline-block;
+    color: #005883;
+    text-align: center;
+    text-decoration: none;
+}
+.listadespegable {
+    display: none;
+    background-color:#F0B429;;
+    position: absolute;
+}
+.listadespegable a{
+    color: #005883;
+    display: block;
+    text-align: left;
+}
+.boton:hover .listadespegable{
+    display: block;
+}
+li a:hover{
+    background-color: #808080;
+}
+.tabla1{
+    padding: 10px;
+    background-color: #F47920;
+    text-align: justify;
+}
+button a, volver {
+    background-color:#F47920;; 
+    display:inline block;
+    color: #005883;
+    text-align: center;
+    text-decoration: none;
+    text-align: left;
+    width: 150%;
+    margin: -10px;
+    padding: 3px;
+    
 }

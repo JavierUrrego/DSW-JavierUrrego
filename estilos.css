@@ -51,14 +51,28 @@ li a:hover{
     text-align: justify;
 }
 button a, volver {
-    background-color:#F47920;; 
+    background-color:#F47920; 
     display:inline block;
     color: #005883;
     text-align: center;
     text-decoration: none;
     text-align: left;
     width: 150%;
-    margin: -10px;
-    padding: 3px;
-    
+    margin: -8px;
+    padding: 8px;
+}
+.tabla2{
+    padding: 50px;
+    background-color: #005883;
+    text-align: justify;
+}
+.tabla3{
+    padding: 50px;
+    background-color:#F47920;
+    text-align: justify;
+}
+.tabla4{
+    padding: 10px;
+    background-color:#808080;
+    text-align: justify;
 }
